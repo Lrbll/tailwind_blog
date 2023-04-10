@@ -8,19 +8,23 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-zinc-800">
     <!-- 헤더 영역 -->
-    <header>
+    <header class="h-20 bg-indigo-900 drop-shadow-2xl">
       <div class="container">
         <div class="home_section">
           <div class="home">
-            <h1>초보 개발자 Yeon</h1>
+            <h1 class="text-white text-3xl pt-6">초보 개발자 Yeon</h1>
           </div>
 
           <div class="btn">
             <a href="index.html" class="social-square"
-              ><i class="fa fa-home fa-3x" style="margin-left: 20px"></i>
+              ><i
+                class="fa fa-home fa-3x hover:text-amber-300"
+                style="margin-left: 20px"
+              ></i>
             </a>
           </div>
         </div>
@@ -30,11 +34,35 @@
     <!-- 메뉴 영역 -->
     <nav class="navbar">
       <div class="container">
-        <ul>
-          <li><a href="profile.html">PROFILE</a></li>
-          <li><a href="skill.html">SKILL</a></li>
-          <li class="current"><a href="project.html">PROJECT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+        <ul class="mt-6 mb-10">
+          <li>
+            <a
+              class="text-white hover:text-amber-200 focus:text-zinc-300"
+              href="profile.html"
+              >PROFILE</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-amber-200 focus:text-zinc-300"
+              href="skill.html"
+              >SKILL</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-amber-200 focus:text-zinc-300"
+              href="project.html"
+              >PROJECT</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-amber-200 focus:text-zinc-300"
+              href="contact.html"
+              >CONTACT</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
